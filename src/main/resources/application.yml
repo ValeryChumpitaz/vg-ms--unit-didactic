@@ -24,7 +24,7 @@ springdoc:
 # External services
 services:
     study-program:
-        url: ${STUDY_PROGRAMME_SERVICE_URL:http://localhost:8086/common/api/v1/study-program}
+        url: ${STUDY_PROGRAMME_SERVICE_URL:https://vg-ms-study-programme-production.up.railway.app/common/api/v1/study-program}
 
 
 #Demo Slack Integración
